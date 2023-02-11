@@ -76,10 +76,10 @@ Maybe you can mention me or this repo in the acknowledgements too
 ### :camera: Screenshots
 
 <div align="center" style="display: inline_block"> 
-  <img src="assets/pic1.png" alt="screenshot" />
-  <img src="assets/pic2.png" alt="screenshot" />
-  <img src="assets/pic3.png" alt="screenshot" />
-  <img src="assets/pic4.png" alt="screenshot" />
+  <img src="assets/pic1.png" width="180" alt="screenshot1" />
+  <img src="assets/pic2.png" width="180" alt="screenshot2" />
+  <img src="assets/pic3.png" width="180" alt="screenshot3" />
+  <img src="assets/pic4.png" width="180" alt="screenshot4" />
 </div>
 
 
@@ -144,7 +144,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Primary Color | ![#00CCD8](https://via.placeholder.com/10/00CCD8?text=+) #00CCD8 |
-| Secondary Color | ![#00CCBB](https://via.placeholder.com/10/00CCBB?text=+) #00CCBB |
+| Secondary Color | ![#77E600](https://via.placeholder.com/10/77e600?text=+) #77e600 |
 | Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
 
@@ -266,3 +266,12 @@ Start the server
 Sang Kha - [@facebook_handle](https://facebook.com/khasang0412) - khasang12@gmail.com
 
 Project Link: [https://github.com/khasang12-khmt/deliveroo-clone](https://github.com/khasang12-khmt/deliveroo-clone)
+
+<!-- Acknowledgments -->
+## :gem: Acknowledgements
+
+Use this section to mention useful resources and libraries that you have used in your projects.
+
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
+ - [Readme Template](https://github.com/othneildrew/Best-README-Template)
