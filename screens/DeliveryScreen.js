@@ -43,11 +43,10 @@ const DeliveryScreen = () => {
           <Progress.Bar size={30} color="#00CCBB" indeterminate={true} />
         </View>
       </SafeAreaView>
-      {console.log(restaurant.lat, restaurant.lon)}
       <MapView
         initialRegion={{
           latitude: 51.25,
-          longitude: 0.59,
+          longitude: -0.59,
           latitudeDelta: 0.005,
           longitudeDelta: 0.005,
         }}
@@ -57,7 +56,7 @@ const DeliveryScreen = () => {
         <Marker
           coordinate={{
             latitude: 51.25,
-            longitude: 0.59,
+            longitude: -0.59,
           }}
           title={restaurant.title}
           description={restaurant.short_description}
@@ -73,7 +72,7 @@ const DeliveryScreen = () => {
           className="h-12 w-12 bg-gray-300 p-4 rounded-full"
         />
         <View className="flex-1">
-          <Text className="text-lg">Sashen Hasindu</Text>
+          <Text className="text-lg">Sang Kha</Text>
           <Text className="text-gray-400">Your Rider</Text>
         </View>
         <Text className="text-[#00CCBB] text-lg mr">Call</Text>
