@@ -1,15 +1,23 @@
+<!--
+Hey, thanks for using the awesome-readme-template template.  
+If you have any enhancements, then fork this project and create a pull request 
+or just open an issue with the label "enhancement".
+
+Don't forget to give this project a star for additional support ;)
+Maybe you can mention me or this repo in the acknowledgements too
+-->
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>Awesome Readme Template</h1>
+  <h1>Deliveroo Clone</h1>
   
   <p>
-    An awesome README template for your projects! 
+    Food for everybody !
   </p>
   
   
 <!-- Badges -->
-<!-- <p>
+<!--<p>
   <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
   </a>
@@ -38,10 +46,10 @@
     <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
   <span> · </span>
     <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
-  </h4>
+  </h4>-->
 </div>
 
-<br /> -->
+<br />
 
 <!-- Table of Contents -->
 # :notebook_with_decorative_cover: Table of Contents
@@ -51,19 +59,10 @@
   * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
-  * [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
   * [Prerequisites](#bangbang-prerequisites)
   * [Installation](#gear-installation)
-  * [Running Tests](#test_tube-running-tests)
   * [Run Locally](#running-run-locally)
-  * [Deployment](#triangular_flag_on_post-deployment)
-- [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
-- [Contributing](#wave-contributing)
-  * [Code of Conduct](#scroll-code-of-conduct)
-- [FAQ](#grey_question-faq)
-- [License](#warning-license)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
 
@@ -76,8 +75,11 @@
 <!-- Screenshots -->
 ### :camera: Screenshots
 
-<div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+<div align="center" style="display: inline_block"> 
+  <img src="assets/pic1.png" alt="screenshot" />
+  <img src="assets/pic2.png" alt="screenshot" />
+  <img src="assets/pic3.png" alt="screenshot" />
+  <img src="assets/pic4.png" alt="screenshot" />
 </div>
 
 
@@ -87,13 +89,14 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
+    <li><a href="https://reactnative.dev/">React Native</a></li>
+    <li><a href="https://redux-toolkit.js.org/tutorials/quick-start">Redux</a></li>
+    <li><a href="https://tailwindcss.com/">NativeWind (TailwindCSS)</a></li>
   </ul>
 </details>
 
+<!--
 <details>
   <summary>Server</summary>
   <ul>
@@ -118,183 +121,148 @@
     <li><a href="https://www.mongodb.com/">MongoDB</a></li>
   </ul>
 </details>
+-->
 
 <details>
-<summary>DevOps</summary>
+<summary>Server & Backend</summary>
   <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
+    <li><a href="https://www.sanity.io/">SanityIO</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 ### :dart: Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Screenshot 1; View all restaurants (categorized) and dishes.
+- Screenshot 2: View information of a restaurant (menu, price,..).
+- Screenshot 3: View basket status (quantity, total price,..).
+- Screenshot 4: View ordering status (map, driver,...).
 
 <!-- Color Reference -->
 ### :art: Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Primary Color | ![#00CCD8](https://via.placeholder.com/10/00CCD8?text=+) #00CCD8 |
+| Secondary Color | ![#00CCBB](https://via.placeholder.com/10/00CCBB?text=+) #00CCBB |
 | Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
 
-<!-- Env Variables -->
-### :key: Environment Variables
+## :toolbox: Getting Started
 
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
-
-<!-- Getting Started -->
-## 	:toolbox: Getting Started
-
-<!-- Prerequisites -->
 ### :bangbang: Prerequisites
 
-This project uses Yarn as package manager
+- Sign up for a Sanity account <a href='https://www.sanity.io'>HERE</a>
+- Install Node JS in your computer <a href='https://nodejs.org/en/'>HERE</a>
 
-```bash
- npm install --global yarn
-```
-
-<!-- Installation -->
 ### :gear: Installation
 
-Install my-project with npm
+![](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-```bash
-  yarn install my-project
-  cd my-project
+Install my-project with expo
+
+![](https://img.shields.io/badge/Expo-02569B?style=for-the-badge&logo=Expo&logoColor=white)
+
+Installing Expo CLI
+
 ```
-   
-<!-- Running Tests -->
-### :test_tube: Running Tests
-
-To run tests, run the following command
-
-```bash
-  yarn test test
+npm install --global expo-cli
 ```
+
+Initializing the project
+
+```
+npx create-expo-app deliveroo-clone
+```
+
+```
+cd deliveroo-clone
+```
+
+Install dependencies
+
+### Setup Tailwind CSS
+
+![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+```
+npm install tailwindcss-react-native
+npm install --save-dev tailwindcss
+```
+
+Tailwindcss requires a `tailwind.config.js` file with the content section configured to include the paths to all of your components and any other source files that contain Tailwind class names.
+
+```
+// tailwind.config.js
+module.exports = {
+  content: [
+    "./screens/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  // ...
+};
+```
+
+Add `TailwindProvider` at the top level of your application. The `TailwindProvider` creates the context for reactive styles and the atomic style objects.
+
+```
+import { TailwindProvider } from "tailwindcss-react-native";
+
+function MyAppsProviders({ children }) {
+  return <TailwindProvider>{children}</TailwindProvider>;
+}
+```
+
+##### Configure your babel.config.js
+
+```
+// babel.config.js
+module.exports = {
+  plugins: ["tailwindcss-react-native/babel"],
+};
+```
+
+Install dependencies
+
+<a href="https://github.com/SashenJayathilaka/Deliveroo-Clone/blob/master/package.json" target="_blank">🔶 Dependency Info</a>
 
 <!-- Run Locally -->
+
 ### :running: Run Locally
+
+![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
+  git clone https://github.com/khasang12-khmt/deliveroo-clone.git
 ```
 
 Install dependencies
 
 ```bash
-  yarn install
+  npm install
+```
+
+Start the client
+
+```bash
+  expo start
 ```
 
 Start the server
 
 ```bash
-  yarn start
+  cd ./sanity
+  sanity start
 ```
 
-
-<!-- Deployment -->
-### :triangular_flag_on_post: Deployment
-
-To deploy this project run
-
-```bash
-  yarn deploy
-```
+<hr />
 
 
-<!-- Usage -->
-## :eyes: Usage
-
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
-
-<!-- Roadmap -->
-## :compass: Roadmap
-
-* [x] Todo 1
-* [ ] Todo 2
-
-
-<!-- Contributing -->
-## :wave: Contributing
-
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
-
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-
-<!-- Code of Conduct -->
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
-<!-- FAQ -->
-## :grey_question: FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
-
-
-<!-- License -->
-## :warning: License
-
-Distributed under the no License. See LICENSE.txt for more information.
-
-
-<!-- Contact -->
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Sang Kha - [@facebook_handle](https://facebook.com/khasang0412) - khasang12@gmail.com
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
-
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
+Project Link: [https://github.com/khasang12-khmt/deliveroo-clone](https://github.com/khasang12-khmt/deliveroo-clone)
